@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>E-shop</title>
@@ -9,7 +9,7 @@
     <header class="main-header">
         <div class="logo-wrapper">
             <a class="main-header-logo" href="#">
-                    <img src="./img/logo_basic.png" alt="" class="main-header-logo__pic">
+                    <img src="img/header/logo_basic.png" alt="" class="main-header-logo__pic">
                     <div class="main-header-logo__name">
                         Soft Apps
                     </div>
@@ -17,7 +17,7 @@
             <div class="main-header-catalogue">
                 <button class="main-header-catalogue__open-catalogue">
                     Catalogue
-                    <img src="./img/menu.png" alt="Open catalogue" class="main-header-catalogue__burger-menu">
+                    <img src="img/header/menu.png" alt="Open catalogue" class="main-header-catalogue__burger-menu">
                 </button>
 <!--                Label for validating-->
                 <label>
@@ -51,13 +51,317 @@
 
     </header>
     <main>
-        <div>
-
+        <div class="promospin">
+            <div class="promospin__link">
+                <a href="#">
+                    10% discount <br> on first buy!
+                </a>
+            </div>
+            <div class="promospin__buttons">
+                <button class="promospin__switch-left promobutton">
+                    <img src="./img/promo/left.png" alt="previuos">
+                </button>
+                <button class="promospin__switch-right promobutton">
+                    <img src="./img/promo/right.png" alt="">
+                </button>
+            </div>
+            <button class="promospin__back-to-catalogue">
+                To catalogue
+            </button>
+            <div class="promospin__order-signs">
+                <div class="promospin__order-sign"></div>
+                <div class="promospin__order-sign"></div>
+                <div class="promospin__order-sign"></div>
+            </div>
         </div>
+        <section class="categories">
+            <h1 class="categories__head">
+                Categories
+            </h1>
+            <div class="categories__list">
+                <div class="categories__item categories__list_windows">
+                    <h3>
+                        Windows
+                    </h3>
+                    <div class="categories-buttons">
+                        <button class="categories__first-list-item list-item-button">
+                            Windows 10  Home
+                        </button>
+                        <button class="categories__second-list-item list-item-button">
+                            Windows 10 Pro
+                        </button>
+                    </div>
+                    <img src="./img/items/windows.png" alt="Windows" class="categories__img">
+                </div>
+                <div class="categories__item categories__list_office">
+                    <h3>
+                        Office
+                    </h3>
+                    <div class="categories-buttons">
+                        <button class="categories__first-list-item list-item-button">
+                            Office 365
+                        </button>
+                        <button class="categories__second-list-item list-item-button">
+                            Office 2019
+                        </button>
+                    </div>
+                    <img src="./img/items/office.png" alt="Windows" class="categories__img">
+                </div>
+                <div class="categories__item categories__list_antivirus">
+                    <h3>
+                        Antivirus protection
+                    </h3>
+                    <div class="categories-buttons">
+                        <button class="categories__first-list-item list-item-button">
+                            Kaspersky
+                        </button>
+                        <button class="categories__second-list-item list-item-button">
+                            Dr. Web
+                        </button>
+                    </div>
+                    <img src="./img/items/antivirus.png" alt="Windows" class="categories__img">
+                </div>
+                <div class="categories__item categories__list_office-apps">
+                    <h3>
+                        Office apps
+                    </h3>
+                    <div class="categories-buttons">
+                        <button class="categories__first-list-item list-item-button">
+                            Office 2016
+                        </button>
+                        <button class="categories__second-list-item list-item-button">
+                            Office 365
+                        </button>
+                    </div>
+                    <img src="./img/items/office_apps.png" alt="Windows" class="categories__img">
+                </div>
+                <div class="categories__item categories__list_antivirus multimedia">
+                    <h3>
+                        Multimedia services
+                    </h3>
+                    <div class="categories-buttons">
+                        <button class="categories__first-list-item list-item-button">
+                            Apple TV
+                        </button>
+                        <button class="categories__second-list-item list-item-button">
+                            Netflix
+                        </button>
+                    </div>
+                    <img src="./img/items/multimedia.png" alt="Windows" class="categories__img">
+                </div>
+                <div class="categories__item categories__list_packs">
+                    <h3>
+                        Packs
+                    </h3>
+                    <div class="categories-buttons">
+                        <button class="categories__first-list-item list-item-button">
+                            Windows 10 + Office 365
+                        </button>
+<!--                        <button class="categories__second-list-item list-item-button">-->
+<!--                            Dr. Web-->
+<!--                        </button>-->
+                    </div>
+                    <img src="./img/items/packs.png" alt="Windows" class="categories__img">
+                </div>
+            </div>
+        </section>
+        <section class="popular">
+            <header class="popular__header">
+                <h2 class="popular__head">
+                    Popular goods
+                </h2>
+                <menu class="popular__menu">
+                    <li class="popular__menu-item">
+                        <a href="#" class="popular__link">All</a>
+                    </li>
+                    <li class="popular__menu-item">
+                        <a href="#" class="popular__link">Microsoft Windows</a>
+                    </li>
+                    <li class="popular__menu-item">
+                        <a href="#" class="popular__link">Microsoft Office</a>
+                    </li>
+                    <li class="popular__menu-item">
+                        <a href="#" class="popular__link">Antiviral apps</a>
+                    </li>
+                    <li class="popular__menu-item">
+                        <a href="#" class="popular__link">Media services</a>
+                    </li>
+
+                </menu>
+            </header>
+            <div class="popular__items">
+                <a href="#" class="popular__item">
+                    <p class="popular__new">
+                        New
+                    </p>
+                    <img src="./img/popular/win10home.png" alt="Windows 10 Home" class="popular__img">
+                    <p class="popular__name">
+                        Windows 10 Home
+                    </p>
+                    <p class="popular__lang popular__description">
+                        Language <span class="popular__descr">Multilanguage</span>
+                    </p>
+                    <p class="popular__bit popular__description">
+                        Bit <span class="popular__descr">32x / 64x</span>
+                    </p>
+                    <p class="popular__country popular__description">
+                        Country <span class="popular__descr">All</span>
+                    </p>
+                    <p class="popular__price">
+                        20 &#x20AC
+                    </p>
+                </a>
+                <a href="#" class="popular__item">
+                    <p class="popular__new">
+                        New
+                    </p>
+                    <img src="./img/popular/win10pro.png" alt="Windows 10 Home" class="popular__img">
+                    <p class="popular__name">
+                        Windows 10 Pro
+                    </p>
+                    <p class="popular__lang popular__description">
+                        Language <span class="popular__descr">Multilanguage</span>
+                    </p>
+                    <p class="popular__bit popular__description">
+                        Bit <span class="popular__descr">32x / 64x</span>
+                    </p>
+                    <p class="popular__country popular__description">
+                        Country <span class="popular__descr">All</span>
+                    </p>
+                    <p class="popular__price">
+                        20 &#x20AC
+                    </p>
+                </a>
+                <a href="#" class="popular__item">
+                    <p class="popular__new">
+                        New
+                    </p>
+                    <img src="./img/popular/win10pro.png" alt="Windows 10 Home" class="popular__img">
+                    <p class="popular__name">
+                        Windows 8.1 Pro
+                    </p>
+                    <p class="popular__lang popular__description">
+                        Language <span class="popular__descr">Multilanguage</span>
+                    </p>
+                    <p class="popular__bit popular__description">
+                        Bit <span class="popular__descr">32x / 64x</span>
+                    </p>
+                    <p class="popular__country popular__description">
+                        Country <span class="popular__descr">All</span>
+                    </p>
+                    <p class="popular__price">
+                        20 &#x20AC
+                    </p>
+                </a>
+            </div>
+            <div class="popular__footer">
+                <button class="popular__show-more">
+                    Show more
+                </button>
+            </div>
+        </section>
+        <section class="blog">
+            <h2 class="blog__head">
+                Blog
+            </h2>
+            <div class="blog__items">
+                <a href="#" class="blog__item">
+                    <img src="./img/blog/item1.png" alt="item1" class="blog__img">
+                    <p class="blog__date">
+                        12 апреля 2022
+                    </p>
+                    <p class="blog__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Debitis dolores eaque ipsam iste nisi officiis veritatis.
+                        Ipsum, mollitia, natus. Ab dolorem in incidunt laudantium
+                        nam placeat reiciendis suscipit ullam unde.
+                    </p>
+                </a>
+                <a href="#" class="blog__item">
+                    <img src="./img/blog/item2.png" alt="item1" class="blog__img">
+                    <p class="blog__date">
+                        12 апреля 2022
+                    </p>
+                    <p class="blog__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Debitis dolores eaque ipsam iste nisi officiis veritatis.
+                        Ipsum, mollitia, natus. Ab dolorem in incidunt laudantium
+                        nam placeat reiciendis suscipit ullam unde.
+                    </p>
+                </a>
+                <a href="#" class="blog__item">
+                    <img src="./img/blog/item3.png" alt="item1" class="blog__img">
+                    <p class="blog__date">
+                        12 апреля 2022
+                    </p>
+                    <p class="blog__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Debitis dolores eaque ipsam iste nisi officiis veritatis.
+                        Ipsum, mollitia, natus. Ab dolorem in incidunt laudantium
+                        nam placeat reiciendis suscipit ullam unde.
+                    </p>
+                </a>
+
+            </div>
+        </section>
+        <section class="chat-buy">
+            <h2 class="chat-buy__head">
+                Buy using online-chat
+            </h2>
+            <p class="chat-buy__text">
+                Our consultant will help you to buy.<br>
+                Comfortable
+            </p>
+            <button class="chat-buy__buy">
+                Buy
+            </button>
+            <img src="./img/chat/basket.png" alt="basket" class="chat-buy__basket">
+        </section>
+        <section class="advantages">
+            <h2 class="advantages__head">
+                Advantages
+            </h2>
+            <div class="advantages__items">
+                <div class="advantages__item">
+                    <img src="./img/adv/wallet.png" alt="wallet" class="advantages__img">
+                    <p class="advantages__item-head">
+                        Best price
+                    </p>
+                    <p class="advantages__text">
+                        We contact our suppliers directly.
+                        It is a guarantee of best quality
+                        and decreased prices.
+                    </p>
+                </div>
+                <div class="advantages__item">
+                    <img src="./img/adv/time.png" alt="wallet" class="advantages__img">
+                    <p class="advantages__item-head">
+                        Best price
+                    </p>
+                    <p class="advantages__text">
+                        We contact our suppliers directly.
+                        It provides us best quality
+                        and decreased prices.
+                    </p>
+                </div>
+                <div class="advantages__item">
+                    <img src="./img/adv/stamp.png" alt="wallet" class="advantages__img">
+                    <p class="advantages__item-head">
+                        Best price
+                    </p>
+                    <p class="advantages__text">
+                        We contact our suppliers directly.
+                        It is a guarantee of best quality
+                        and decreased prices.
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="main-footer">
 
     </footer>
+
 
 </body>
 </html>
